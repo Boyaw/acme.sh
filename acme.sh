@@ -32,7 +32,7 @@ CA_BUYPASS_TEST="https://api.test4.buypass.no/acme/directory"
 CA_ZEROSSL="https://acme.zerossl.com/v2/DV90"
 _ZERO_EAB_ENDPOINT="http://api.zerossl.com/acme/eab-credentials-email"
 
-DEFAULT_CA=$CA_LETSENCRYPT_V2
+DEFAULT_CA="https://acme.dft.netsec.inf.ethz.ch/acme/default/directory"
 DEFAULT_STAGING_CA=$CA_LETSENCRYPT_V2_TEST
 
 CA_NAMES="
